@@ -27,5 +27,9 @@
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|Total Test Cases|Test Case Pass
 -------|------------|----------------|----------------|---------------|-------------|--------------
-`257841` | MANASA V BHAT  | ONLINE ELECTION SYSTEM    | None     | None  | 3  | 3 |     
+`257841` | MANASA V BHAT  | ONLINE ELECTION SYSTEM    | None     | None  | 3  | 3 |    
+
+## RESOURCES
+1. https://economictimes.indiatimes.com/topic/Online-voting
+2. H. Agarwal and G. N. Pandey, "Online voting system for India based on AADHAAR ID," 2013 Eleventh International Conference on ICT and Knowledge Engineering, Bangkok, Thailand, 2013, pp. 1-4, doi: 10.1109/ICTKE.2013.6756265.(ONLY FOR READING PURPOSE)
 
