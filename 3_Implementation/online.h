@@ -1,5 +1,5 @@
 /**
- * @brief 
+ * @brief Declaration of functions.
  * 
  */
  int checkvoterid(int vid);

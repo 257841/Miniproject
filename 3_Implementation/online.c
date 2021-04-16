@@ -12,12 +12,12 @@
 #include <stdlib.h>
 int count1 = 0, count2 = 0, count3 = 0, count4 = 0, false = 0;
 /**
- * @brief 
+ * @brief variables to hold the number of counts each candidate has recieved.
  * 
  */
 
 /**
- * @brief 
+ * @brief function to check valid voter id
  * 
  */
  int checkvoterid(int vid) 
@@ -35,6 +35,10 @@ int count1 = 0, count2 = 0, count3 = 0, count4 = 0, false = 0;
    }
    return 0;
  }
+ /**
+  * @brief Function to cast the vote
+  * 
+  */
 
 void votecast() 
 {
@@ -77,7 +81,7 @@ void votecast()
   printf("\n THANK YOU FOR VOTING ");
 }
 /**
- * @brief 
+ * @brief  Function to display votes recieved by each candidate
  * 
  */
 
@@ -90,7 +94,7 @@ void votesCount() {
   printf("\n %s - %d ", "Spoiled Votes", false);
 }
 /**
- * @brief 
+ * @brief To display winner of the election
  * 
  */
 
@@ -107,6 +111,11 @@ void leader() {
   else
     printf("**RESULTS CANNOT BE DECLARED**");
 }
+/**
+ * @brief Function  To get the total number of votes cast
+ * 
+ * @return int 
+ */
 int totalvotes(count1,count2,count3,count4)
 {
  int  sum=count1+count2+count3+count4;

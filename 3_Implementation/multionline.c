@@ -11,12 +11,16 @@
 #include "online.h"
 #include <stdlib.h>
 #include<stdio.h>
+/**
+ * @brief Structure to hold candidate details
+ * 
+ */
 typedef struct candidate {
   char *name;
   int id;
 } cand;
 /**
- * @brief 
+ * @brief main function 
  * 
  * @return int 
  */
@@ -38,6 +42,10 @@ int main()
   cand *a4=(cand*)malloc(sizeof(cand));
   a1->name="Deepak";
   a1->id=123378;
+  /**
+   * @brief Display the candidate details
+   * 
+   */
   printf("CANDIDATE 1:\nName-%s\nID-%d\n",a1->name,a1->id);
   printf("CANDIDATE 2:\nName-%s\nID-%d\n",a2->name,a2->id);
   printf("CANDIDATE 3:\nName-%s\nID-%d\n",a3->name,a3->id);
@@ -49,7 +57,7 @@ int main()
   int i;
   int choice;
   /**
-   * @brief 
+   * @brief proceeding with election
    * 
    */
    if(vid%10==0)
@@ -84,6 +92,10 @@ int main()
 while (choice != 0);
 getchar();
    }
+   /**
+    * @brief Construct a new free object
+    * 
+    */
 
    free(a1);
    free(a2);
