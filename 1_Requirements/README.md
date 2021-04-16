@@ -21,9 +21,14 @@ The reduction in organizational and implementation costs significantly increases
 
 
 ## Cost and Features with Time 
-| Time | Feature | Cost |
-| ----- | ----- | ----- |
-| 10
+ | Feature | Cost |
+| ----- | ----- |
+| ONLINE ELECTION SYSTEM|Rs 350 per 84 GB of internet data|
+| AUTHENTICATION|Free|
+| DISPLAY OF CANDIDATES|Free|
+| VOTING|Free|
+| RESULT OF THE ELECTION|Free|
+| TOTAL VOTES POLLED|Free|
 
 
 ### Certain assumptions:
