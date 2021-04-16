@@ -65,8 +65,8 @@ The reduction in organizational and implementation costs significantly increases
 |6. | Multiuser  |IMPLEMENTED |
 
 ##  Low level Requirements:
-| ID | Description  | Status | 
-| ----- | -----  | ---------|
+| ID | Description  | 
+| ----- | -----  | 
 |1. | User needs a laptop/desktop with internet connection  |   
 |2. | User should have a valid voter id number.                                           | 
 |3. |  Availability:System must have high availbility during voting                                                |  
