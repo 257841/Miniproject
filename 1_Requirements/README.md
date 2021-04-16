@@ -90,4 +90,9 @@ The reduction in organizational and implementation costs significantly increases
 ![](https://github.com/257841/Miniproject/blob/main/2_Architecture/behaviorDiagrams/dig22.png)
 
 
+## RESOURCES
+1. https://economictimes.indiatimes.com/topic/Online-voting
+2. H. Agarwal and G. N. Pandey, "Online voting system for India based on AADHAAR ID," 2013 Eleventh International Conference on ICT and Knowledge Engineering, Bangkok, Thailand, 2013, pp. 1-4, doi: 10.1109/ICTKE.2013.6756265.(ONLY FOR READING PURPOSE)
+
+
 
