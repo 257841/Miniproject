@@ -23,12 +23,12 @@ The reduction in organizational and implementation costs significantly increases
 ## Cost and Features with Time 
 | Time | Feature | Cost |
 | ----- | ----- | ----- |
-| 
+| 10
 
 
 ### Certain assumptions:
-* A person will be allowed to use the system(cast the vote) only if his/her name is registered.
-* I have assumed that the person voting is a verified authentic user who has a voter id.
+* A person will be allowed to use the system(cast the vote) only if his/her voter id is valid.
+
 
 # 4W&#39;s and 1&#39;H
 
@@ -61,7 +61,7 @@ The reduction in organizational and implementation costs significantly increases
 | ID | Description  | Status | 
 | ----- | -----  | ---------|
 |1. | User needs a laptop/desktop with internet connection  | IMPLEMENTED | 
-|2. |                                                       | IMPLEMENTED|
+|2. | User has have a valid voter id number.                                           | IMPLEMENTED|
 |3. |                                                       | IMPLEMENTED |
 |4. |                                                       |IMPLEMENTED |
 
