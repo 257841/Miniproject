@@ -87,7 +87,7 @@ The reduction in organizational and implementation costs significantly increases
 ## Low level Diagrams
 ![](https://github.com/257841/Miniproject/blob/main/2_Architecture/behaviorDiagrams/MODEL.png)
 
-![](https://github.com/257841/Miniproject/blob/main/2_Architecture/behaviorDiagrams/dig22.png
+![](https://github.com/257841/Miniproject/blob/main/2_Architecture/behaviorDiagrams/dig22.png)
 
 
 
