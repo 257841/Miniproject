@@ -56,15 +56,16 @@ The reduction in organizational and implementation costs significantly increases
 |2. | Vote for a particular candidate| IMPLEMENTED|
 |3. | View the votes recieved by each candidate  | IMPLEMENTED |
 |4. | View the winner of the election  |IMPLEMENTED |
+|5. | Security  |IMPLEMENTED |
+|6. | Multiuser  |IMPLEMENTED |
 
 ##  Low level Requirements:
 | ID | Description  | Status | 
 | ----- | -----  | ---------|
-|1. | User needs a laptop/desktop with internet connection  | IMPLEMENTED | 
-|2. | User has have a valid voter id number.                                           | IMPLEMENTED|
-|3. |                                                       | IMPLEMENTED |
-|4. |                                                       |IMPLEMENTED |
-
+|1. | User needs a laptop/desktop with internet connection  |   
+|2. | User should have a valid voter id number.                                           | 
+|3. |  Availability:System must have high availbility during voting                                                |  
+|4. |   Multiuser:A number of people can vote simultaneously                                                    |
 
 
 ## SWOT ANALYSIS
@@ -72,6 +73,13 @@ The reduction in organizational and implementation costs significantly increases
 
 ## ARCHITECTURE
 
+## High level Diagrams
+![](https://github.com/257841/Miniproject/blob/main/2_Architecture/structureDiagrams/ONLINE.png)
+
+![](https://github.com/257841/Miniproject/blob/main/2_Architecture/structureDiagrams/STRUCT2.png)
+
+
+## Low level Diagrams
 ![](https://github.com/257841/Miniproject/blob/main/2_Architecture/behaviorDiagrams/MODEL.png)
 
 

@@ -107,6 +107,17 @@ void leader() {
   else
     printf("**RESULTS CANNOT BE DECLARED**");
 }
+int totalvotes(count1,count2,count3,count4)
+{
+ int  sum=count1+count2+count3+count4;
+ return sum;
+}
+int multotal(count1,count2,count3,count4)
+{
+  int mul=count1*count2*count3*count4;
+  return mul;
+}
+
 /**
  * @brief 
  * 

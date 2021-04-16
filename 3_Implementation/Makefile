@@ -5,16 +5,16 @@ PROJ_NAME = ONLINEVOTING
 
 
 INC = online.h
-INCLUDE_LIBS = ~/Miniproject/3_Implementation/unity/unity.h\
-               ~/Miniproject/3_Implementation/unity/unity_internals.h
+INCLUDE_LIBS = ~/Miniproject/3_Implementation/unity.h\
+               ~/Miniproject/3_Implementation/unity_internals.h
 
 
 SRC = multionline.c \
 online.c 
 
 
-TEST_SRC = ~/Miniproject/3_Implementation/3_Implementation/test/ordertest.c\
-               ~/Miniproject/3_Implementation/3_Implementation/unity/unity.c
+TEST_SRC = ~/Miniproject/3_Implementation/3_Implementation/test.c\
+               ~/Miniproject/3_Implementation/3_Implementation/unity.c
 
 INC	= -Iinc\
 -Iunity\

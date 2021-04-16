@@ -1,27 +1,44 @@
 #include "unity.h"
 #include"unity_internals.h"
 #include "online.h"
-#define TEST_ASSERT_EQUAL(expected, actual) 
 
+
+int totalvotes(count1,count2,count3,count4)
+{
+ int  sum=count1+count2+count3+count4;
+ return sum;
+}
+int multotal(count1,count2,count3,count4)
+{
+  int mul=count1*count2*count3*count4;
+  return mul;
+}
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
 void tearDown(){}
-
-void test_votesCount(void) 
+void test_add()
 {
-
-  TEST_ASSERT_EQUAL(0, votesCount());
+    TEST_ASSERT_EQUAL(totalvotes(5,4,3,5),17);
 }
+void test_mul()
+{
+    TEST_ASSERT_EQUAL(totalvotes(5,4,3,10),600);
+}
+
+
+
+
 int main(void)
 {
-/* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
+    /* Initiate the Unity Test Framework */
+    UNITY_BEGIN();
 
-/* Run Test functions */
-  RUN_TEST(test_votesCount);
- 
+    /* Run Test functions */
+    RUN_TEST(test_add);
+    RUN_TEST(test_mul);
+    
 
-  /* Close the Unity Test Framework */
-  return UNITY_END();
+    /* Close the Unity Test Framework */
+    return UNITY_END();
 }
